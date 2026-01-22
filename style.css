@@ -86,6 +86,13 @@ body {
     gap: 40px;
 }
 
+.main-section h3{
+	text-align: center;
+	font-size: 1.5rem;
+    font-style: italic;
+	margin-bottom: 15px;
+}
+
 
 /* ------------------ */
 
@@ -253,10 +260,9 @@ body {
    margin-bottom: 10px;
 }
 
-.contact-center-right h3 {
-   font-size: 1.5rem;
-   width: 300px;
-   font-style: italic;
+.contact-center-right .logo-top {
+    max-width: 250px;
+	max-height: 250px;
 }
 
 
@@ -356,6 +362,22 @@ body {
 }
 
 
+.photo {
+    position: relative;
+	height: 100%; /* ou mettre auto ou la taille px réelle =1200px? idem pour width 800px j'imagine  */
+	/* mais attention car ça doit marcher pour img comme pr gif, et la page qui a gif sera plus "longue" */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.photo img {
+    width: 100%;
+	border-radius: 10px;
+	/*height: auto; ou 100 % plutot */
+	/*object-fit: cover; a voir pour les gifs !!, surtout sur mobile*/
+}
+
+
 /* ------------------ */
 footer {
     background: #023047;
@@ -405,6 +427,3 @@ footer {
 	*/
   }
 }
-
-
-

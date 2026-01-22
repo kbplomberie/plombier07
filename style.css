@@ -404,13 +404,17 @@ footer {
         font-size: 2rem;
     }
 
-    .top-right .logo-top {
+   /* .top-right .logo-top {
         width: 180px; /* a voir */
 		height: 180px;
-    }
+    }*/
 	
 	.contact-center-right {
 		margin-top : 30px; 
+	}
+
+	.main-section h4 {
+		max-width: 500px;
 	}
 	
 	footer {
@@ -422,4 +426,5 @@ footer {
 	*/
   }
 }
+
 

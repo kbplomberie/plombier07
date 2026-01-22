@@ -405,7 +405,7 @@ footer {
     }
 
    /* .top-right .logo-top {
-        width: 180px; /* a voir */
+        width: 180px; 
 		height: 180px;
     }*/
 	
@@ -414,7 +414,7 @@ footer {
 	}
 
 	.main-section h4 {
-		max-width: 500px;
+		max-width: 400px;
 	}
 	
 	footer {
@@ -426,5 +426,6 @@ footer {
 	*/
   }
 }
+
 
 
